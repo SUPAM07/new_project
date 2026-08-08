@@ -25,7 +25,7 @@ services:
     name: prepsphere-gateway
     env: node
     rootDir: backend/gateway
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     plan: free
     envVars:
@@ -48,7 +48,7 @@ services:
     name: prepsphere-auth
     env: node
     rootDir: backend/services/auth-service
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     plan: free
     envVars:
@@ -62,7 +62,7 @@ services:
     name: prepsphere-billing
     env: node
     rootDir: backend/services/billing-service
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     plan: free
     envVars:
@@ -76,7 +76,7 @@ services:
     name: prepsphere-interview
     env: node
     rootDir: backend/services/interview-service
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     plan: free
     envVars:
@@ -90,7 +90,7 @@ services:
     name: prepsphere-resume
     env: node
     rootDir: backend/services/resume-service
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     plan: free
     envVars:
@@ -104,7 +104,7 @@ services:
     name: prepsphere-roadmap
     env: node
     rootDir: backend/services/roadmap-service
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     plan: free
     envVars:
