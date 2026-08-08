@@ -29,9 +29,7 @@
     "jsonwebtoken": "^9.0.2",
     "nodemailer": "^6.9.15",
     "pg": "^8.13.3",
-    "zod": "^3.25.67"
-  },
-  "devDependencies": {
+    "zod": "^3.25.67",
     "@types/cookie-parser": "^1.4.8",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",

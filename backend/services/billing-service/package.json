@@ -23,9 +23,7 @@
     "express": "^5.2.1",
     "pg": "^8.13.3",
     "razorpay": "^2.9.8",
-    "zod": "^3.25.67"
-  },
-  "devDependencies": {
+    "zod": "^3.25.67",
     "@types/express": "^5.0.3",
     "@types/node": "^22.16.3",
     "@types/pg": "^8.11.10",
